@@ -112,7 +112,4 @@ public class Film {
 				+ date_opening + ", rate=" + rate + ", image=" + image + ", category=" + category + "]";
 	}
 
-
-
-
 }

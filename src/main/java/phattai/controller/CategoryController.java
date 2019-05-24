@@ -72,10 +72,4 @@ public class CategoryController {
 		System.out.println("Not exsit ID!");
 		return temp;
 	}
-
-	@GetMapping("/test")
-	public String getTest() {
-		return "get test";
-	}
-
 }

@@ -44,5 +44,10 @@ public class UserDTO {
 	public void setIs_admin(boolean is_admin) {
 		this.is_admin = is_admin;
 	}
+	@Override
+	public String toString() {
+		return "UserDTO [username=" + username + ", fullname=" + fullname + ", address=" + address + ", email=" + email
+				+ ", phone=" + phone + ", is_admin=" + is_admin + "]";
+	}
 	
 }

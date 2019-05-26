@@ -22,7 +22,7 @@ public class User {
 	private String address;
 
 	@Column(name = "email")
-	private String email;
+	private String email;	
 
 	@Column(name = "phone")
 	private long phone;
@@ -84,6 +84,12 @@ public class User {
 
 	public void setIs_admin(boolean is_admin) {
 		this.is_admin = is_admin;
+	}
+
+	@Override
+	public String toString() {
+		return "User [username=" + username + ", password=" + password + ", fullname=" + fullname + ", address="
+				+ address + ", email=" + email + ", phone=" + phone + ", is_admin=" + is_admin + "]";
 	}
 
 	
